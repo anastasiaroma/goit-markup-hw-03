@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -13,7 +14,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
 }
 .logo-web {
   color: #2196f3;
@@ -61,20 +62,24 @@ body {
   color: #2196f3;
 }
 /*ГЕРОЙ*/
+.hero {
+  background: #2f303a;
+}
 .hero-title {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
 }
 .hero-button {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
@@ -138,11 +143,14 @@ body {
   font-style: 400;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 18;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
 /*ПОДВАЛ*/
+.footer {
+  background: #2f303a;
+}
 .address-link {
   font-family: "Roboto", sans-serif;
   font-style: 400;
@@ -150,12 +158,16 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  /*color: #FFFFFF;*/
-  color: #212121;
+  color: #ffffff;
+}
+.logo-web-stodio {
+  color: #ffffff;
 }
 
 /*PORTFOLIO*/
+.hiden {
+  display: none;
+}
 .novigation-button-link {
   font-family: "Roboto", sans-serif;
   font-style: 400;
