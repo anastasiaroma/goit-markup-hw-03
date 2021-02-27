@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  background: #e5e5e5;
 }
 .link {
   text-decoration: none;
@@ -24,8 +25,8 @@ body {
 }
 .navigation-link {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: medium;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -37,8 +38,8 @@ body {
 }
 .tel-link {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: medium;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -50,8 +51,8 @@ body {
 }
 .mail-link {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: medium;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -68,7 +69,7 @@ body {
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
@@ -90,8 +91,8 @@ body {
 /*ГЛАВНЫЕ ИДЕИ*/
 .idea-list-title {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -100,8 +101,8 @@ body {
 }
 .idea-list-position {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -110,8 +111,8 @@ body {
 /*чЕМ МЫ ЗАНИМАЕМСЯ*/
 .emp-title {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -121,8 +122,8 @@ body {
 /*кОМАНДА*/
 .team-title {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -131,8 +132,8 @@ body {
 }
 .title-name {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: medium;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -140,8 +141,8 @@ body {
 }
 .team-position {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -153,8 +154,8 @@ body {
 }
 .address-link {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -170,8 +171,8 @@ body {
 }
 .novigation-button-link {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 500;
+  font-style: normal;
+  font-weight: medium;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -186,8 +187,8 @@ body {
 }
 .img-title {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -195,8 +196,8 @@ body {
 }
 .img-position {
   font-family: "Roboto", sans-serif;
-  font-style: 400;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
