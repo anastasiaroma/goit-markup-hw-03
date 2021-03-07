@@ -161,6 +161,7 @@ body {
   background: #2196f3;
   color: #ffffff;
   cursor: pointer;
+  border-radius: 4px;
 }
 /*ГЛАВНЫЕ ИДЕИ*/
 .idea-list {
@@ -310,8 +311,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
-}
-
 }
 /*PORTFOLIO*/
 .portfolio-list {
