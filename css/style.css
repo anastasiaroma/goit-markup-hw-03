@@ -33,7 +33,12 @@ body {
   padding-right: 15px;
 }
 /*ШАПКА*/
-.header.container {
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
   display: flex;
   align-items: center;
 }
@@ -55,6 +60,7 @@ body {
   padding-bottom: 32px;
 }
 .contact-link {
+  margin-left: auto;
   display: flex;
 }
 .contact-link .contact-inf + .contact-inf {
@@ -93,6 +99,7 @@ body {
 }
 
 .tel-link {
+  margin-right: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -121,14 +128,17 @@ body {
 /*ГЕРОЙ*/
 .hero {
   background: #2f303a;
-}
-.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .hero-title {
-  width: 696px;
+  margin: auto;
+  max-width: 696px;
   height: 120px;
-  padding: 280px 452px;
+  margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bolder;
@@ -164,8 +174,8 @@ body {
   margin-left: 30px;
 }
 .idea {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .idea-list-title {
   margin-bottom: 10px;
@@ -195,8 +205,7 @@ body {
   display: flex;
 }
 .employ {
-  padding-top: 47px;
-  padding-bottom: 47px;
+  padding-bottom: 94px;
 }
 .emp-title {
   margin-bottom: 50px;
@@ -226,6 +235,7 @@ body {
   margin-bottom: 30px;
 }
 .team-title {
+  margin-bottom: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -255,13 +265,22 @@ body {
   color: #757575;
 }
 /*ПОДВАЛ*/
-.logotype {
-  margin-bottom: 20px;
-}
-.footer {
+.class-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #2f303a;
 }
+.logo-footer {
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
 .address-link {
+  margin-bottom: 9px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -273,8 +292,42 @@ body {
 .logo-web-stodio {
   color: #ffffff;
 }
+.tel-link-footer {
+  margin-bottom: 9px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mail-link-footer {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
 
+}
 /*PORTFOLIO*/
+.portfolio-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/*Novigation*/
+.saction-button {
+  margin-bottom: 34px;
+}
+.novigation-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 34px;
+}
 .hiden {
   display: none;
 }
@@ -291,13 +344,26 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background: #f5f4fa;
+  outline-style: none;
+  border-width: 2px;
+  border-color: transparent;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 6px 22px;
+  cursor: pointer;
 }
 .novigation-button-link:hover,
 .novigation-button-link:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
+.novigation-button .novigation-button-list + .novigation-button-list {
+  padding-left: 30px;
+}
+/*Novigation img*/
 .img-title {
+  min-width: 294px;
+  margin-bottom: 4px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -314,4 +380,26 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.img-link {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 370px;
+}
+.novigation-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.img-list {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img-discriptions {
+  border: 1px solid #eeeeee;
+  border-top: none;
+  padding: 20px 24px;
+  min-width: 322px;
 }
