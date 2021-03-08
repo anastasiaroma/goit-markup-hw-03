@@ -16,6 +16,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  white-space: nowrap;
 }
 
 body {
@@ -379,11 +380,8 @@ body {
 /*Novigation img*/
 
 .img-title {
-  min-width: 294px;
   margin-bottom: 4px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -411,10 +409,12 @@ body {
   margin-top: 30px;
 }
 .img-discriptions {
-  border: 1px solid #eeeeee;
-  border-top: none;
-  padding-top: 20px;
-  padding-right: 24px;
+  display: block;
   padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
   padding-bottom: 20px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
