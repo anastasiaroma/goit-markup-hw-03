@@ -284,13 +284,18 @@ body {
   color: #757575;
 }
 /*ПОДВАЛ*/
+.cont-list:not(:last-child) {
+  margin-bottom: 9px;
+}
 .class-footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
 }
+.adress {
+  margin-top: 20px;
+}
 .logo-footer {
-  margin-bottom: 20px;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -384,7 +389,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 .img-position {
