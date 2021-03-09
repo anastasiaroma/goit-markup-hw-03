@@ -67,8 +67,11 @@ body {
   margin-left: auto;
   display: flex;
 }
-.contact-link .contact-inf + .contact-inf {
-  margin-left: 50px;
+.contact-link-list {
+  display: block;
+}
+.contact-link-list:not(:last-child) {
+  margin-right: 50px;
 }
 .logo {
   margin-right: 93px;
@@ -103,7 +106,6 @@ body {
 }
 
 .tel-link {
-  margin-right: 50px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -111,6 +113,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .tel-link:hover,
 .tel-link:focus {
@@ -124,6 +129,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .mail-link:hover,
 .mail.link:focus {
@@ -287,13 +295,10 @@ body {
 .cont-list:not(:last-child) {
   margin-bottom: 9px;
 }
-.class-footer {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
-}
-.adress {
-  margin-top: 20px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -301,6 +306,8 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .address-link {
