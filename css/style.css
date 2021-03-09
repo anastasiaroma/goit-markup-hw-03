@@ -387,7 +387,7 @@ body {
   color: #ffffff;
 }
 .novigation-button .novigation-button-list + .novigation-button-list {
-  padding-left: 30px;
+  margin-left: 30px;
 }
 /*Novigation img*/
 
